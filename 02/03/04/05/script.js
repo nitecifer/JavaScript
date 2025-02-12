@@ -19,10 +19,10 @@
 //     console.log('you are an Adult')
 // }
 
-// NOT -> !
+// NOT -> True -> False &  False -> True
 
 const number = 18;
 
-if(number % 2 != 0){
+if(!(number % 2 != 0)){
     console.log('Odd')
 }
