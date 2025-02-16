@@ -30,14 +30,31 @@
 
 // Guess the Number 
 
-let number = 40;
+// let number = 40;
 
-let guess = 0;
+// let guess = 0;
 
-do{
-    guess = parseInt(prompt("Guess a Number"))
-    if(guess == number){
-        alert('Winner')
-        break;
-    }
-}while(guess != 0)
+// do{
+//     guess = parseInt(prompt("Guess a Number"))
+//     if(guess == number){
+//         alert('Winner')
+//         break;
+//     }
+// }while(guess != 0)
+
+
+  let ip = 0;
+
+  let office = 40;
+
+// while(ip != office ){
+//     ip = ip+1 
+//     console.log('Step Taken' + ip)
+// }
+
+    do{
+        ip = ip+1;
+        console.log('Step Taken'+ ip)
+    }while(ip <= office)
+
+
