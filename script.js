@@ -1,1 +1,3 @@
-console.log('Hello I am Nitish')
+const students = ["piyush", "John","Jane"]
+students[2] = "Jane Kumar"
+console.log(students);
